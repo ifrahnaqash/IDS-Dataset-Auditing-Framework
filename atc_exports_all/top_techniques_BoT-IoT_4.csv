@@ -1,0 +1,5 @@
+dataset,technique_id,name,tactics,q,confidence,evidence_count,evidence_types
+BoT-IoT,T1498.001,Direct Network Flood,impact,0.5,1.0,3576884,label_map
+BoT-IoT,T1595.001,Scanning IP Blocks,reconnaissance,0.5,1.0,91082,label_map
+BoT-IoT,T1046,Network Service Discovery,discovery,0.5,1.0,91082,label_map
+BoT-IoT,T1041,Exfiltration Over C2 Channel,exfiltration,0.5,1.0,79,label_map

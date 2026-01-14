@@ -1,0 +1,20 @@
+dataset,technique_id,name,tactics,q,confidence,evidence_count,evidence_types
+NSL-KDD,T1498.001,Direct Network Flood,impact,0.5,1.0,50352,label_map
+NSL-KDD,T1046,Network Service Discovery,discovery,0.5,1.0,14255,label_map
+NSL-KDD,T1595.001,Scanning IP Blocks,reconnaissance,0.5,1.0,8713,label_map
+NSL-KDD,T1595.002,Vulnerability Scanning,reconnaissance,0.5,1.0,5364,label_map
+NSL-KDD,T1105,Ingress Tool Transfer,command-and-control,0.5,1.0,1865,label_map
+NSL-KDD,T1110.001,Password Guessing,credential-access,0.5,1.0,1636,label_map
+NSL-KDD,T1499.002,Service Exhaustion Flood,impact,0.5,1.0,1608,label_map
+NSL-KDD,T1499.001,OS Exhaustion Flood,impact,0.5,1.0,685,label_map
+NSL-KDD,T1572,Protocol Tunneling,command-and-control,0.5,1.0,133,label_map
+NSL-KDD,T1068,Exploitation for Privilege Escalation,privilege-escalation,0.5,1.0,64,label_map
+NSL-KDD,T1059,Command and Scripting Interpreter,execution,0.5,1.0,29,label_map
+NSL-KDD,T1190,Exploit Public-Facing Application,initial-access,0.5,1.0,25,label_map
+NSL-KDD,T1090,Proxy,command-and-control,0.5,1.0,25,label_map
+NSL-KDD,T1014,Rootkit,defense-evasion,0.5,1.0,23,label_map
+NSL-KDD,T1057,Process Discovery,discovery,0.5,1.0,15,label_map
+NSL-KDD,T1040,Network Sniffing,"credential-access, discovery",0.5,0.9375,4,label_map
+NSL-KDD,T1113,Screen Capture,collection,0.5,0.75,2,label_map
+NSL-KDD,T1498.002,Reflection Amplification,impact,0.5,0.75,2,label_map
+NSL-KDD,T1210,Exploitation of Remote Services,lateral-movement,0.5,0.75,2,label_map

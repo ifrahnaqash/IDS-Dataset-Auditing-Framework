@@ -1,0 +1,5 @@
+dataset,technique_id,name,tactics,q,confidence,evidence_count,evidence_types
+UNR-IDD,T1498.001,Direct Network Flood,impact,0.5,1.0,23116,label_map
+UNR-IDD,T1595.001,Scanning IP Blocks,reconnaissance,0.5,1.0,9500,label_map
+UNR-IDD,T1046,Network Service Discovery,discovery,0.5,1.0,9500,label_map
+UNR-IDD,T1499,Endpoint Denial of Service,impact,0.5,1.0,1022,label_map

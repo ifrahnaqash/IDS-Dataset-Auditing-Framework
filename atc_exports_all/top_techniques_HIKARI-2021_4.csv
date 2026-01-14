@@ -1,0 +1,5 @@
+dataset,technique_id,name,tactics,q,confidence,evidence_count,evidence_types
+HIKARI-2021,T1595,Active Scanning,reconnaissance,0.5,1.0,23388,label_map
+HIKARI-2021,T1046,Network Service Discovery,discovery,0.5,1.0,23388,label_map
+HIKARI-2021,T1110.001,Password Guessing,credential-access,0.5,1.0,11029,label_map
+HIKARI-2021,T1496,Resource Hijacking,impact,0.5,1.0,3279,label_map

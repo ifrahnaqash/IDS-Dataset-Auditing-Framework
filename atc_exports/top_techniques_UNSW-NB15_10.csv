@@ -1,0 +1,9 @@
+dataset,technique_id,name,tactics,q,confidence,evidence_count,evidence_types
+UNSW-NB15,T1498.001,Direct Network Flood,impact,0.5,1.0,75224,label_map
+UNSW-NB15,T1190,Exploit Public-Facing Application,initial-access,0.5,1.0,44525,label_map
+UNSW-NB15,T1046,Network Service Discovery,discovery,0.5,1.0,40910,label_map
+UNSW-NB15,T1595.002,Vulnerability Scanning,reconnaissance,0.5,1.0,26923,label_map
+UNSW-NB15,T1595.001,Scanning IP Blocks,reconnaissance,0.5,1.0,13987,label_map
+UNSW-NB15,T1547,Boot or Logon Autostart Execution,"persistence, privilege-escalation",0.5,1.0,2329,label_map
+UNSW-NB15,T1203,Exploitation for Client Execution,execution,0.5,1.0,1511,label_map
+UNSW-NB15,T1210,Exploitation of Remote Services,lateral-movement,0.5,1.0,174,label_map

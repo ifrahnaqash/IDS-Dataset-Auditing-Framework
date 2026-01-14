@@ -1,0 +1,7 @@
+dataset,technique_id,name,tactics,q,confidence,evidence_count,evidence_types
+CSE-CIC-IDS2018,T1499.003,Application Exhaustion Flood,impact,0.5,1.0,1189432,label_map
+CSE-CIC-IDS2018,T1110.001,Password Guessing,credential-access,0.5,1.0,381560,label_map
+CSE-CIC-IDS2018,T1071.001,Web Protocols,command-and-control,0.5,1.0,286191,label_map
+CSE-CIC-IDS2018,T1190,Exploit Public-Facing Application,initial-access,0.5,1.0,162251,label_map
+CSE-CIC-IDS2018,T1499.002,Service Exhaustion Flood,impact,0.5,1.0,150880,label_map
+CSE-CIC-IDS2018,T1498.001,Direct Network Flood,impact,0.5,1.0,1730,label_map
