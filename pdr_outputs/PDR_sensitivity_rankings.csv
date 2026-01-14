@@ -1,0 +1,8 @@
+dataset,rank@0.3,rank@0.5,rank@0.7,max_rank_delta
+ToN_IoT,2,2,6,4
+HIKARI-2021,7,6,3,4
+CIC-IDS2017,5,5,2,3
+NSL-KDD,3,3,5,2
+UNSW-NB15,6,7,7,1
+Bot_IoT,1,1,1,0
+CSE-CIC-IDS2018,4,4,4,0

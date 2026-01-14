@@ -1,0 +1,80 @@
+dataset,feature,category,reason
+CSE-CIC-IDS2018,Unnamed: 0,ignored,excluded
+CSE-CIC-IDS2018,Dst Port,flow,heuristic
+CSE-CIC-IDS2018,Protocol,flow,heuristic
+CSE-CIC-IDS2018,Flow Duration,time,heuristic
+CSE-CIC-IDS2018,Tot Fwd Pkts,flow,heuristic
+CSE-CIC-IDS2018,Tot Bwd Pkts,flow,heuristic
+CSE-CIC-IDS2018,TotLen Fwd Pkts,flow,heuristic
+CSE-CIC-IDS2018,TotLen Bwd Pkts,flow,heuristic
+CSE-CIC-IDS2018,Fwd Pkt Len Max,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Pkt Len Min,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Pkt Len Mean,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Pkt Len Std,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Pkt Len Max,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Pkt Len Min,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Pkt Len Mean,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Pkt Len Std,statistical,heuristic
+CSE-CIC-IDS2018,Flow Byts/s,flow,heuristic
+CSE-CIC-IDS2018,Flow Pkts/s,flow,heuristic
+CSE-CIC-IDS2018,Flow IAT Mean,time,heuristic
+CSE-CIC-IDS2018,Flow IAT Std,time,heuristic
+CSE-CIC-IDS2018,Flow IAT Max,time,heuristic
+CSE-CIC-IDS2018,Flow IAT Min,time,heuristic
+CSE-CIC-IDS2018,Fwd IAT Tot,time,heuristic
+CSE-CIC-IDS2018,Fwd IAT Mean,time,heuristic
+CSE-CIC-IDS2018,Fwd IAT Std,time,heuristic
+CSE-CIC-IDS2018,Fwd IAT Max,time,heuristic
+CSE-CIC-IDS2018,Fwd IAT Min,time,heuristic
+CSE-CIC-IDS2018,Bwd IAT Tot,time,heuristic
+CSE-CIC-IDS2018,Bwd IAT Mean,time,heuristic
+CSE-CIC-IDS2018,Bwd IAT Std,time,heuristic
+CSE-CIC-IDS2018,Bwd IAT Max,time,heuristic
+CSE-CIC-IDS2018,Bwd IAT Min,time,heuristic
+CSE-CIC-IDS2018,Fwd PSH Flags,flow,heuristic
+CSE-CIC-IDS2018,Bwd PSH Flags,flow,heuristic
+CSE-CIC-IDS2018,Fwd URG Flags,conn/flags,heuristic
+CSE-CIC-IDS2018,Bwd URG Flags,conn/flags,heuristic
+CSE-CIC-IDS2018,Fwd Header Len,flow,heuristic
+CSE-CIC-IDS2018,Bwd Header Len,flow,heuristic
+CSE-CIC-IDS2018,Fwd Pkts/s,flow,heuristic
+CSE-CIC-IDS2018,Bwd Pkts/s,flow,heuristic
+CSE-CIC-IDS2018,Pkt Len Min,statistical,heuristic
+CSE-CIC-IDS2018,Pkt Len Max,statistical,heuristic
+CSE-CIC-IDS2018,Pkt Len Mean,statistical,heuristic
+CSE-CIC-IDS2018,Pkt Len Std,statistical,heuristic
+CSE-CIC-IDS2018,Pkt Len Var,statistical,heuristic
+CSE-CIC-IDS2018,FIN Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,SYN Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,RST Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,PSH Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,ACK Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,URG Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,CWE Flag Count,conn/flags,heuristic
+CSE-CIC-IDS2018,ECE Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,Pkt Size Avg,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Seg Size Avg,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Seg Size Avg,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Byts/b Avg,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Pkts/b Avg,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Blk Rate Avg,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Byts/b Avg,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Pkts/b Avg,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Blk Rate Avg,statistical,heuristic
+CSE-CIC-IDS2018,Subflow Fwd Pkts,flow,heuristic
+CSE-CIC-IDS2018,Subflow Fwd Byts,flow,heuristic
+CSE-CIC-IDS2018,Subflow Bwd Pkts,flow,heuristic
+CSE-CIC-IDS2018,Subflow Bwd Byts,flow,heuristic
+CSE-CIC-IDS2018,Init Fwd Win Byts,flow,heuristic
+CSE-CIC-IDS2018,Init Bwd Win Byts,flow,heuristic
+CSE-CIC-IDS2018,Fwd Act Data Pkts,flow,heuristic
+CSE-CIC-IDS2018,Fwd Seg Size Min,statistical,heuristic
+CSE-CIC-IDS2018,Active Mean,time,heuristic
+CSE-CIC-IDS2018,Active Std,time,heuristic
+CSE-CIC-IDS2018,Active Max,time,heuristic
+CSE-CIC-IDS2018,Active Min,time,heuristic
+CSE-CIC-IDS2018,Idle Mean,time,heuristic
+CSE-CIC-IDS2018,Idle Std,time,heuristic
+CSE-CIC-IDS2018,Idle Max,time,heuristic
+CSE-CIC-IDS2018,Idle Min,time,heuristic
+CSE-CIC-IDS2018,Label,ignored,excluded

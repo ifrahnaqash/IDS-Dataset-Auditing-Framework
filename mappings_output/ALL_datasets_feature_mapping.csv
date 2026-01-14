@@ -1,0 +1,458 @@
+dataset,feature,category,reason
+NSL-KDD,duration,time,heuristic
+NSL-KDD,protocol_type,flow,heuristic
+NSL-KDD,service,flow,heuristic
+NSL-KDD,flag,conn/flags,heuristic
+NSL-KDD,src_bytes,flow,heuristic
+NSL-KDD,dst_bytes,flow,heuristic
+NSL-KDD,land,flow,heuristic
+NSL-KDD,wrong_fragment,flow,heuristic
+NSL-KDD,urgent,flow,heuristic
+NSL-KDD,hot,content,heuristic
+NSL-KDD,num_failed_logins,content,heuristic
+NSL-KDD,logged_in,content,heuristic
+NSL-KDD,num_compromised,content,heuristic
+NSL-KDD,root_shell,content,heuristic
+NSL-KDD,su_attempted,content,heuristic
+NSL-KDD,num_root,content,heuristic
+NSL-KDD,num_file_creations,content,heuristic
+NSL-KDD,num_shells,content,heuristic
+NSL-KDD,num_access_files,content,heuristic
+NSL-KDD,num_outbound_cmds,content,heuristic
+NSL-KDD,is_host_login,content,heuristic
+NSL-KDD,is_guest_login,content,heuristic
+NSL-KDD,count,flow,heuristic
+NSL-KDD,srv_count,flow,heuristic
+NSL-KDD,serror_rate,statistical,heuristic
+NSL-KDD,srv_serror_rate,statistical,heuristic
+NSL-KDD,rerror_rate,statistical,heuristic
+NSL-KDD,srv_rerror_rate,statistical,heuristic
+NSL-KDD,same_srv_rate,statistical,heuristic
+NSL-KDD,diff_srv_rate,statistical,heuristic
+NSL-KDD,srv_diff_host_rate,statistical,heuristic
+NSL-KDD,dst_host_count,flow,heuristic
+NSL-KDD,dst_host_srv_count,flow,heuristic
+NSL-KDD,dst_host_same_srv_rate,statistical,heuristic
+NSL-KDD,dst_host_diff_srv_rate,statistical,heuristic
+NSL-KDD,dst_host_same_src_port_rate,statistical,heuristic
+NSL-KDD,dst_host_srv_diff_host_rate,statistical,heuristic
+NSL-KDD,dst_host_serror_rate,statistical,heuristic
+NSL-KDD,dst_host_srv_serror_rate,statistical,heuristic
+NSL-KDD,dst_host_rerror_rate,statistical,heuristic
+NSL-KDD,dst_host_srv_rerror_rate,statistical,heuristic
+NSL-KDD,attack,ignored,excluded
+NSL-KDD,level,ignored,excluded
+UNSW-NB15,id,ignored,excluded
+UNSW-NB15,dur,time,heuristic
+UNSW-NB15,proto,flow,heuristic
+UNSW-NB15,service,flow,heuristic
+UNSW-NB15,state,conn/flags,heuristic
+UNSW-NB15,spkts,flow,heuristic
+UNSW-NB15,dpkts,flow,heuristic
+UNSW-NB15,sbytes,flow,heuristic
+UNSW-NB15,dbytes,flow,heuristic
+UNSW-NB15,rate,statistical,heuristic
+UNSW-NB15,sttl,flow,heuristic
+UNSW-NB15,dttl,flow,heuristic
+UNSW-NB15,sload,flow,heuristic
+UNSW-NB15,dload,flow,heuristic
+UNSW-NB15,sloss,flow,heuristic
+UNSW-NB15,dloss,flow,heuristic
+UNSW-NB15,sinpkt,flow,heuristic
+UNSW-NB15,dinpkt,flow,heuristic
+UNSW-NB15,sjit,flow,heuristic
+UNSW-NB15,djit,flow,heuristic
+UNSW-NB15,swin,flow,heuristic
+UNSW-NB15,stcpb,flow,heuristic
+UNSW-NB15,dtcpb,flow,heuristic
+UNSW-NB15,dwin,flow,heuristic
+UNSW-NB15,tcprtt,flow,heuristic
+UNSW-NB15,synack,flow,heuristic
+UNSW-NB15,ackdat,flow,heuristic
+UNSW-NB15,smean,statistical,heuristic
+UNSW-NB15,dmean,statistical,heuristic
+UNSW-NB15,trans_depth,flow,heuristic
+UNSW-NB15,response_body_len,flow,heuristic
+UNSW-NB15,ct_srv_src,flow,heuristic
+UNSW-NB15,ct_state_ttl,flow,heuristic
+UNSW-NB15,ct_dst_ltm,flow,heuristic
+UNSW-NB15,ct_src_dport_ltm,flow,heuristic
+UNSW-NB15,ct_dst_sport_ltm,flow,heuristic
+UNSW-NB15,ct_dst_src_ltm,flow,heuristic
+UNSW-NB15,is_ftp_login,content,heuristic
+UNSW-NB15,ct_ftp_cmd,flow,heuristic
+UNSW-NB15,ct_flw_http_mthd,telemetry,override
+UNSW-NB15,ct_src_ltm,flow,heuristic
+UNSW-NB15,ct_srv_dst,flow,heuristic
+UNSW-NB15,is_sm_ips_ports,conn/flags,heuristic
+UNSW-NB15,attack_cat,ignored,excluded
+UNSW-NB15,label,ignored,excluded
+CICIDS2017,Destination Port,flow,heuristic
+CICIDS2017,Flow Duration,time,heuristic
+CICIDS2017,Total Fwd Packets,flow,heuristic
+CICIDS2017,Total Backward Packets,flow,heuristic
+CICIDS2017,Total Length of Fwd Packets,flow,heuristic
+CICIDS2017,Total Length of Bwd Packets,flow,heuristic
+CICIDS2017,Fwd Packet Length Max,statistical,heuristic
+CICIDS2017,Fwd Packet Length Min,statistical,heuristic
+CICIDS2017,Fwd Packet Length Mean,statistical,heuristic
+CICIDS2017,Fwd Packet Length Std,statistical,heuristic
+CICIDS2017,Bwd Packet Length Max,statistical,heuristic
+CICIDS2017,Bwd Packet Length Min,statistical,heuristic
+CICIDS2017,Bwd Packet Length Mean,statistical,heuristic
+CICIDS2017,Bwd Packet Length Std,statistical,heuristic
+CICIDS2017,Flow Bytes/s,flow,heuristic
+CICIDS2017,Flow Packets/s,flow,heuristic
+CICIDS2017,Flow IAT Mean,time,heuristic
+CICIDS2017,Flow IAT Std,time,heuristic
+CICIDS2017,Flow IAT Max,time,heuristic
+CICIDS2017,Flow IAT Min,time,heuristic
+CICIDS2017,Fwd IAT Total,time,heuristic
+CICIDS2017,Fwd IAT Mean,time,heuristic
+CICIDS2017,Fwd IAT Std,time,heuristic
+CICIDS2017,Fwd IAT Max,time,heuristic
+CICIDS2017,Fwd IAT Min,time,heuristic
+CICIDS2017,Bwd IAT Total,time,heuristic
+CICIDS2017,Bwd IAT Mean,time,heuristic
+CICIDS2017,Bwd IAT Std,time,heuristic
+CICIDS2017,Bwd IAT Max,time,heuristic
+CICIDS2017,Bwd IAT Min,time,heuristic
+CICIDS2017,Fwd PSH Flags,flow,heuristic
+CICIDS2017,Bwd PSH Flags,flow,heuristic
+CICIDS2017,Fwd URG Flags,conn/flags,heuristic
+CICIDS2017,Bwd URG Flags,conn/flags,heuristic
+CICIDS2017,Fwd Header Length,flow,heuristic
+CICIDS2017,Bwd Header Length,flow,heuristic
+CICIDS2017,Fwd Packets/s,flow,heuristic
+CICIDS2017,Bwd Packets/s,flow,heuristic
+CICIDS2017,Min Packet Length,statistical,heuristic
+CICIDS2017,Max Packet Length,statistical,heuristic
+CICIDS2017,Packet Length Mean,statistical,heuristic
+CICIDS2017,Packet Length Std,statistical,heuristic
+CICIDS2017,Packet Length Variance,statistical,heuristic
+CICIDS2017,FIN Flag Count,conn/flags,heuristic
+CICIDS2017,SYN Flag Count,conn/flags,heuristic
+CICIDS2017,RST Flag Count,conn/flags,heuristic
+CICIDS2017,PSH Flag Count,conn/flags,heuristic
+CICIDS2017,ACK Flag Count,conn/flags,heuristic
+CICIDS2017,URG Flag Count,conn/flags,heuristic
+CICIDS2017,CWE Flag Count,conn/flags,heuristic
+CICIDS2017,ECE Flag Count,conn/flags,heuristic
+CICIDS2017,Down/Up Ratio,flow,heuristic
+CICIDS2017,Average Packet Size,flow,heuristic
+CICIDS2017,Avg Fwd Segment Size,statistical,heuristic
+CICIDS2017,Avg Bwd Segment Size,statistical,heuristic
+CICIDS2017,Fwd Header Length.1,flow,heuristic
+CICIDS2017,Fwd Avg Bytes/Bulk,statistical,heuristic
+CICIDS2017,Fwd Avg Packets/Bulk,statistical,heuristic
+CICIDS2017,Fwd Avg Bulk Rate,statistical,heuristic
+CICIDS2017,Bwd Avg Bytes/Bulk,statistical,heuristic
+CICIDS2017,Bwd Avg Packets/Bulk,statistical,heuristic
+CICIDS2017,Bwd Avg Bulk Rate,statistical,heuristic
+CICIDS2017,Subflow Fwd Packets,flow,heuristic
+CICIDS2017,Subflow Fwd Bytes,flow,heuristic
+CICIDS2017,Subflow Bwd Packets,flow,heuristic
+CICIDS2017,Subflow Bwd Bytes,flow,heuristic
+CICIDS2017,Init_Win_bytes_forward,flow,heuristic
+CICIDS2017,Init_Win_bytes_backward,flow,heuristic
+CICIDS2017,act_data_pkt_fwd,flow,heuristic
+CICIDS2017,min_seg_size_forward,statistical,heuristic
+CICIDS2017,Active Mean,time,heuristic
+CICIDS2017,Active Std,time,heuristic
+CICIDS2017,Active Max,time,heuristic
+CICIDS2017,Active Min,time,heuristic
+CICIDS2017,Idle Mean,time,heuristic
+CICIDS2017,Idle Std,time,heuristic
+CICIDS2017,Idle Max,time,heuristic
+CICIDS2017,Idle Min,time,heuristic
+CICIDS2017,Label,ignored,excluded
+CSE-CIC-IDS2018,Unnamed: 0,ignored,excluded
+CSE-CIC-IDS2018,Dst Port,flow,heuristic
+CSE-CIC-IDS2018,Protocol,flow,heuristic
+CSE-CIC-IDS2018,Flow Duration,time,heuristic
+CSE-CIC-IDS2018,Tot Fwd Pkts,flow,heuristic
+CSE-CIC-IDS2018,Tot Bwd Pkts,flow,heuristic
+CSE-CIC-IDS2018,TotLen Fwd Pkts,flow,heuristic
+CSE-CIC-IDS2018,TotLen Bwd Pkts,flow,heuristic
+CSE-CIC-IDS2018,Fwd Pkt Len Max,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Pkt Len Min,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Pkt Len Mean,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Pkt Len Std,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Pkt Len Max,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Pkt Len Min,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Pkt Len Mean,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Pkt Len Std,statistical,heuristic
+CSE-CIC-IDS2018,Flow Byts/s,flow,heuristic
+CSE-CIC-IDS2018,Flow Pkts/s,flow,heuristic
+CSE-CIC-IDS2018,Flow IAT Mean,time,heuristic
+CSE-CIC-IDS2018,Flow IAT Std,time,heuristic
+CSE-CIC-IDS2018,Flow IAT Max,time,heuristic
+CSE-CIC-IDS2018,Flow IAT Min,time,heuristic
+CSE-CIC-IDS2018,Fwd IAT Tot,time,heuristic
+CSE-CIC-IDS2018,Fwd IAT Mean,time,heuristic
+CSE-CIC-IDS2018,Fwd IAT Std,time,heuristic
+CSE-CIC-IDS2018,Fwd IAT Max,time,heuristic
+CSE-CIC-IDS2018,Fwd IAT Min,time,heuristic
+CSE-CIC-IDS2018,Bwd IAT Tot,time,heuristic
+CSE-CIC-IDS2018,Bwd IAT Mean,time,heuristic
+CSE-CIC-IDS2018,Bwd IAT Std,time,heuristic
+CSE-CIC-IDS2018,Bwd IAT Max,time,heuristic
+CSE-CIC-IDS2018,Bwd IAT Min,time,heuristic
+CSE-CIC-IDS2018,Fwd PSH Flags,flow,heuristic
+CSE-CIC-IDS2018,Bwd PSH Flags,flow,heuristic
+CSE-CIC-IDS2018,Fwd URG Flags,conn/flags,heuristic
+CSE-CIC-IDS2018,Bwd URG Flags,conn/flags,heuristic
+CSE-CIC-IDS2018,Fwd Header Len,flow,heuristic
+CSE-CIC-IDS2018,Bwd Header Len,flow,heuristic
+CSE-CIC-IDS2018,Fwd Pkts/s,flow,heuristic
+CSE-CIC-IDS2018,Bwd Pkts/s,flow,heuristic
+CSE-CIC-IDS2018,Pkt Len Min,statistical,heuristic
+CSE-CIC-IDS2018,Pkt Len Max,statistical,heuristic
+CSE-CIC-IDS2018,Pkt Len Mean,statistical,heuristic
+CSE-CIC-IDS2018,Pkt Len Std,statistical,heuristic
+CSE-CIC-IDS2018,Pkt Len Var,statistical,heuristic
+CSE-CIC-IDS2018,FIN Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,SYN Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,RST Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,PSH Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,ACK Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,URG Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,CWE Flag Count,conn/flags,heuristic
+CSE-CIC-IDS2018,ECE Flag Cnt,conn/flags,heuristic
+CSE-CIC-IDS2018,Pkt Size Avg,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Seg Size Avg,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Seg Size Avg,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Byts/b Avg,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Pkts/b Avg,statistical,heuristic
+CSE-CIC-IDS2018,Fwd Blk Rate Avg,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Byts/b Avg,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Pkts/b Avg,statistical,heuristic
+CSE-CIC-IDS2018,Bwd Blk Rate Avg,statistical,heuristic
+CSE-CIC-IDS2018,Subflow Fwd Pkts,flow,heuristic
+CSE-CIC-IDS2018,Subflow Fwd Byts,flow,heuristic
+CSE-CIC-IDS2018,Subflow Bwd Pkts,flow,heuristic
+CSE-CIC-IDS2018,Subflow Bwd Byts,flow,heuristic
+CSE-CIC-IDS2018,Init Fwd Win Byts,flow,heuristic
+CSE-CIC-IDS2018,Init Bwd Win Byts,flow,heuristic
+CSE-CIC-IDS2018,Fwd Act Data Pkts,flow,heuristic
+CSE-CIC-IDS2018,Fwd Seg Size Min,statistical,heuristic
+CSE-CIC-IDS2018,Active Mean,time,heuristic
+CSE-CIC-IDS2018,Active Std,time,heuristic
+CSE-CIC-IDS2018,Active Max,time,heuristic
+CSE-CIC-IDS2018,Active Min,time,heuristic
+CSE-CIC-IDS2018,Idle Mean,time,heuristic
+CSE-CIC-IDS2018,Idle Std,time,heuristic
+CSE-CIC-IDS2018,Idle Max,time,heuristic
+CSE-CIC-IDS2018,Idle Min,time,heuristic
+CSE-CIC-IDS2018,Label,ignored,excluded
+ToN_IoT,src_ip,flow,heuristic
+ToN_IoT,src_port,flow,heuristic
+ToN_IoT,dst_ip,flow,heuristic
+ToN_IoT,dst_port,flow,heuristic
+ToN_IoT,proto,flow,heuristic
+ToN_IoT,service,flow,heuristic
+ToN_IoT,duration,time,heuristic
+ToN_IoT,src_bytes,flow,heuristic
+ToN_IoT,dst_bytes,flow,heuristic
+ToN_IoT,conn_state,conn/flags,heuristic
+ToN_IoT,missed_bytes,flow,heuristic
+ToN_IoT,src_pkts,flow,heuristic
+ToN_IoT,src_ip_bytes,flow,heuristic
+ToN_IoT,dst_pkts,flow,heuristic
+ToN_IoT,dst_ip_bytes,flow,heuristic
+ToN_IoT,dns_query,telemetry,override
+ToN_IoT,dns_qclass,telemetry,override
+ToN_IoT,dns_qtype,telemetry,override
+ToN_IoT,dns_rcode,telemetry,override
+ToN_IoT,dns_AA,telemetry,override
+ToN_IoT,dns_RD,telemetry,override
+ToN_IoT,dns_RA,telemetry,override
+ToN_IoT,dns_rejected,telemetry,override
+ToN_IoT,ssl_version,telemetry,override
+ToN_IoT,ssl_cipher,telemetry,override
+ToN_IoT,ssl_resumed,telemetry,override
+ToN_IoT,ssl_established,telemetry,override
+ToN_IoT,ssl_subject,telemetry,override
+ToN_IoT,ssl_issuer,telemetry,override
+ToN_IoT,http_trans_depth,telemetry,override
+ToN_IoT,http_method,telemetry,override
+ToN_IoT,http_uri,telemetry,override
+ToN_IoT,http_version,telemetry,override
+ToN_IoT,http_request_body_len,telemetry,override
+ToN_IoT,http_response_body_len,telemetry,override
+ToN_IoT,http_status_code,telemetry,override
+ToN_IoT,http_user_agent,telemetry,override
+ToN_IoT,http_orig_mime_types,telemetry,override
+ToN_IoT,http_resp_mime_types,telemetry,override
+ToN_IoT,weird_name,telemetry,override
+ToN_IoT,weird_addl,telemetry,override
+ToN_IoT,weird_notice,telemetry,override
+ToN_IoT,label,ignored,excluded
+ToN_IoT,type,telemetry,override
+BoT_IoT,pkSeqID,ignored,excluded
+BoT_IoT,stime,time,heuristic
+BoT_IoT,flgs,conn/flags,heuristic
+BoT_IoT,flgs_number,conn/flags,override
+BoT_IoT,proto,flow,heuristic
+BoT_IoT,proto_number,flow,heuristic
+BoT_IoT,saddr,flow,heuristic
+BoT_IoT,sport,flow,heuristic
+BoT_IoT,daddr,flow,heuristic
+BoT_IoT,dport,flow,heuristic
+BoT_IoT,pkts,flow,heuristic
+BoT_IoT,bytes,flow,heuristic
+BoT_IoT,state,conn/flags,heuristic
+BoT_IoT,state_number,conn/flags,heuristic
+BoT_IoT,ltime,time,heuristic
+BoT_IoT,seq,flow,heuristic
+BoT_IoT,dur,time,heuristic
+BoT_IoT,mean,statistical,heuristic
+BoT_IoT,stddev,statistical,heuristic
+BoT_IoT,sum,statistical,override
+BoT_IoT,min,statistical,heuristic
+BoT_IoT,max,statistical,heuristic
+BoT_IoT,spkts,flow,heuristic
+BoT_IoT,dpkts,flow,heuristic
+BoT_IoT,sbytes,flow,heuristic
+BoT_IoT,dbytes,flow,heuristic
+BoT_IoT,rate,statistical,heuristic
+BoT_IoT,srate,statistical,heuristic
+BoT_IoT,drate,statistical,heuristic
+BoT_IoT,TnBPSrcIP,flow,heuristic
+BoT_IoT,TnBPDstIP,flow,heuristic
+BoT_IoT,TnP_PSrcIP,flow,heuristic
+BoT_IoT,TnP_PDstIP,flow,heuristic
+BoT_IoT,TnP_PerProto,flow,heuristic
+BoT_IoT,TnP_Per_Dport,flow,heuristic
+BoT_IoT,AR_P_Proto_P_SrcIP,flow,heuristic
+BoT_IoT,AR_P_Proto_P_DstIP,flow,heuristic
+BoT_IoT,N_IN_Conn_P_DstIP,flow,heuristic
+BoT_IoT,N_IN_Conn_P_SrcIP,flow,heuristic
+BoT_IoT,AR_P_Proto_P_Sport,flow,heuristic
+BoT_IoT,AR_P_Proto_P_Dport,flow,heuristic
+BoT_IoT,Pkts_P_State_P_Protocol_P_DestIP,flow,heuristic
+BoT_IoT,Pkts_P_State_P_Protocol_P_SrcIP,flow,heuristic
+BoT_IoT,attack,ignored,excluded
+BoT_IoT,category,ignored,excluded
+BoT_IoT,subcategory,ignored,excluded
+HIKARI-2021,Unnamed: 0.1,ignored,excluded
+HIKARI-2021,Unnamed: 0,ignored,excluded
+HIKARI-2021,uid,ignored,excluded
+HIKARI-2021,originh,flow,heuristic
+HIKARI-2021,originp,flow,heuristic
+HIKARI-2021,responh,flow,heuristic
+HIKARI-2021,responp,flow,heuristic
+HIKARI-2021,flow_duration,time,heuristic
+HIKARI-2021,fwd_pkts_tot,flow,heuristic
+HIKARI-2021,bwd_pkts_tot,flow,heuristic
+HIKARI-2021,fwd_data_pkts_tot,flow,heuristic
+HIKARI-2021,bwd_data_pkts_tot,flow,heuristic
+HIKARI-2021,fwd_pkts_per_sec,flow,heuristic
+HIKARI-2021,bwd_pkts_per_sec,flow,heuristic
+HIKARI-2021,flow_pkts_per_sec,flow,heuristic
+HIKARI-2021,down_up_ratio,flow,heuristic
+HIKARI-2021,fwd_header_size_tot,flow,heuristic
+HIKARI-2021,fwd_header_size_min,statistical,heuristic
+HIKARI-2021,fwd_header_size_max,statistical,heuristic
+HIKARI-2021,bwd_header_size_tot,flow,heuristic
+HIKARI-2021,bwd_header_size_min,statistical,heuristic
+HIKARI-2021,bwd_header_size_max,statistical,heuristic
+HIKARI-2021,flow_FIN_flag_count,flow,heuristic
+HIKARI-2021,flow_SYN_flag_count,flow,heuristic
+HIKARI-2021,flow_RST_flag_count,flow,heuristic
+HIKARI-2021,fwd_PSH_flag_count,flow,heuristic
+HIKARI-2021,bwd_PSH_flag_count,flow,heuristic
+HIKARI-2021,flow_ACK_flag_count,flow,heuristic
+HIKARI-2021,fwd_URG_flag_count,flow,heuristic
+HIKARI-2021,bwd_URG_flag_count,flow,heuristic
+HIKARI-2021,flow_CWR_flag_count,flow,heuristic
+HIKARI-2021,flow_ECE_flag_count,flow,heuristic
+HIKARI-2021,fwd_pkts_payload.min,statistical,heuristic
+HIKARI-2021,fwd_pkts_payload.max,statistical,heuristic
+HIKARI-2021,fwd_pkts_payload.tot,flow,heuristic
+HIKARI-2021,fwd_pkts_payload.avg,statistical,heuristic
+HIKARI-2021,fwd_pkts_payload.std,statistical,heuristic
+HIKARI-2021,bwd_pkts_payload.min,statistical,heuristic
+HIKARI-2021,bwd_pkts_payload.max,statistical,heuristic
+HIKARI-2021,bwd_pkts_payload.tot,flow,heuristic
+HIKARI-2021,bwd_pkts_payload.avg,statistical,heuristic
+HIKARI-2021,bwd_pkts_payload.std,statistical,heuristic
+HIKARI-2021,flow_pkts_payload.min,statistical,heuristic
+HIKARI-2021,flow_pkts_payload.max,statistical,heuristic
+HIKARI-2021,flow_pkts_payload.tot,flow,heuristic
+HIKARI-2021,flow_pkts_payload.avg,statistical,heuristic
+HIKARI-2021,flow_pkts_payload.std,statistical,heuristic
+HIKARI-2021,fwd_iat.min,time,heuristic
+HIKARI-2021,fwd_iat.max,time,heuristic
+HIKARI-2021,fwd_iat.tot,time,heuristic
+HIKARI-2021,fwd_iat.avg,time,heuristic
+HIKARI-2021,fwd_iat.std,time,heuristic
+HIKARI-2021,bwd_iat.min,time,heuristic
+HIKARI-2021,bwd_iat.max,time,heuristic
+HIKARI-2021,bwd_iat.tot,time,heuristic
+HIKARI-2021,bwd_iat.avg,time,heuristic
+HIKARI-2021,bwd_iat.std,time,heuristic
+HIKARI-2021,flow_iat.min,time,heuristic
+HIKARI-2021,flow_iat.max,time,heuristic
+HIKARI-2021,flow_iat.tot,time,heuristic
+HIKARI-2021,flow_iat.avg,time,heuristic
+HIKARI-2021,flow_iat.std,time,heuristic
+HIKARI-2021,payload_bytes_per_second,flow,heuristic
+HIKARI-2021,fwd_subflow_pkts,flow,heuristic
+HIKARI-2021,bwd_subflow_pkts,flow,heuristic
+HIKARI-2021,fwd_subflow_bytes,flow,heuristic
+HIKARI-2021,bwd_subflow_bytes,flow,heuristic
+HIKARI-2021,fwd_bulk_bytes,flow,heuristic
+HIKARI-2021,bwd_bulk_bytes,flow,heuristic
+HIKARI-2021,fwd_bulk_packets,flow,heuristic
+HIKARI-2021,bwd_bulk_packets,flow,heuristic
+HIKARI-2021,fwd_bulk_rate,statistical,heuristic
+HIKARI-2021,bwd_bulk_rate,statistical,heuristic
+HIKARI-2021,active.min,time,heuristic
+HIKARI-2021,active.max,time,heuristic
+HIKARI-2021,active.tot,time,heuristic
+HIKARI-2021,active.avg,time,heuristic
+HIKARI-2021,active.std,time,heuristic
+HIKARI-2021,idle.min,time,heuristic
+HIKARI-2021,idle.max,time,heuristic
+HIKARI-2021,idle.tot,time,heuristic
+HIKARI-2021,idle.avg,time,heuristic
+HIKARI-2021,idle.std,time,heuristic
+HIKARI-2021,fwd_init_window_size,flow,heuristic
+HIKARI-2021,bwd_init_window_size,flow,heuristic
+HIKARI-2021,fwd_last_window_size,flow,heuristic
+HIKARI-2021,traffic_category,ignored,excluded
+HIKARI-2021,Label,ignored,excluded
+UNR-IDD,Switch ID,telemetry,heuristic
+UNR-IDD,Port Number,telemetry,heuristic
+UNR-IDD,Received Packets,flow,heuristic
+UNR-IDD,Received Bytes,flow,heuristic
+UNR-IDD,Sent Bytes,flow,heuristic
+UNR-IDD,Sent Packets,flow,heuristic
+UNR-IDD,Port alive Duration (S),time,heuristic
+UNR-IDD,Packets Rx Dropped,flow,heuristic
+UNR-IDD,Packets Tx Dropped,flow,heuristic
+UNR-IDD,Packets Rx Errors,flow,heuristic
+UNR-IDD,Packets Tx Errors,flow,heuristic
+UNR-IDD,Delta Received Packets,flow,heuristic
+UNR-IDD,Delta Received Bytes,flow,heuristic
+UNR-IDD,Delta Sent Bytes,flow,heuristic
+UNR-IDD,Delta Sent Packets,flow,heuristic
+UNR-IDD,Delta Port alive Duration (S),time,heuristic
+UNR-IDD,Delta Packets Rx Dropped,flow,heuristic
+UNR-IDD,Delta Packets Tx Dropped,flow,heuristic
+UNR-IDD,Delta Packets Rx Errors,flow,heuristic
+UNR-IDD,Delta Packets Tx Errors,flow,heuristic
+UNR-IDD,Connection Point,telemetry,heuristic
+UNR-IDD,Total Load/Rate,statistical,heuristic
+UNR-IDD,Total Load/Latest,telemetry,override
+UNR-IDD,Unknown Load/Rate,statistical,heuristic
+UNR-IDD,Unknown Load/Latest,telemetry,override
+UNR-IDD,Latest bytes counter,flow,heuristic
+UNR-IDD,is_valid,telemetry,heuristic
+UNR-IDD,Table ID,ignored,excluded
+UNR-IDD,Active Flow Entries,time,heuristic
+UNR-IDD,Packets Matched,flow,heuristic
+UNR-IDD,Max Size,statistical,heuristic
+UNR-IDD,Label,ignored,excluded
+UNR-IDD,Binary Label,ignored,excluded

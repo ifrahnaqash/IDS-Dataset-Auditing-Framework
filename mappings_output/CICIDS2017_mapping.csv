@@ -1,0 +1,80 @@
+dataset,feature,category,reason
+CICIDS2017,Destination Port,flow,heuristic
+CICIDS2017,Flow Duration,time,heuristic
+CICIDS2017,Total Fwd Packets,flow,heuristic
+CICIDS2017,Total Backward Packets,flow,heuristic
+CICIDS2017,Total Length of Fwd Packets,flow,heuristic
+CICIDS2017,Total Length of Bwd Packets,flow,heuristic
+CICIDS2017,Fwd Packet Length Max,statistical,heuristic
+CICIDS2017,Fwd Packet Length Min,statistical,heuristic
+CICIDS2017,Fwd Packet Length Mean,statistical,heuristic
+CICIDS2017,Fwd Packet Length Std,statistical,heuristic
+CICIDS2017,Bwd Packet Length Max,statistical,heuristic
+CICIDS2017,Bwd Packet Length Min,statistical,heuristic
+CICIDS2017,Bwd Packet Length Mean,statistical,heuristic
+CICIDS2017,Bwd Packet Length Std,statistical,heuristic
+CICIDS2017,Flow Bytes/s,flow,heuristic
+CICIDS2017,Flow Packets/s,flow,heuristic
+CICIDS2017,Flow IAT Mean,time,heuristic
+CICIDS2017,Flow IAT Std,time,heuristic
+CICIDS2017,Flow IAT Max,time,heuristic
+CICIDS2017,Flow IAT Min,time,heuristic
+CICIDS2017,Fwd IAT Total,time,heuristic
+CICIDS2017,Fwd IAT Mean,time,heuristic
+CICIDS2017,Fwd IAT Std,time,heuristic
+CICIDS2017,Fwd IAT Max,time,heuristic
+CICIDS2017,Fwd IAT Min,time,heuristic
+CICIDS2017,Bwd IAT Total,time,heuristic
+CICIDS2017,Bwd IAT Mean,time,heuristic
+CICIDS2017,Bwd IAT Std,time,heuristic
+CICIDS2017,Bwd IAT Max,time,heuristic
+CICIDS2017,Bwd IAT Min,time,heuristic
+CICIDS2017,Fwd PSH Flags,flow,heuristic
+CICIDS2017,Bwd PSH Flags,flow,heuristic
+CICIDS2017,Fwd URG Flags,conn/flags,heuristic
+CICIDS2017,Bwd URG Flags,conn/flags,heuristic
+CICIDS2017,Fwd Header Length,flow,heuristic
+CICIDS2017,Bwd Header Length,flow,heuristic
+CICIDS2017,Fwd Packets/s,flow,heuristic
+CICIDS2017,Bwd Packets/s,flow,heuristic
+CICIDS2017,Min Packet Length,statistical,heuristic
+CICIDS2017,Max Packet Length,statistical,heuristic
+CICIDS2017,Packet Length Mean,statistical,heuristic
+CICIDS2017,Packet Length Std,statistical,heuristic
+CICIDS2017,Packet Length Variance,statistical,heuristic
+CICIDS2017,FIN Flag Count,conn/flags,heuristic
+CICIDS2017,SYN Flag Count,conn/flags,heuristic
+CICIDS2017,RST Flag Count,conn/flags,heuristic
+CICIDS2017,PSH Flag Count,conn/flags,heuristic
+CICIDS2017,ACK Flag Count,conn/flags,heuristic
+CICIDS2017,URG Flag Count,conn/flags,heuristic
+CICIDS2017,CWE Flag Count,conn/flags,heuristic
+CICIDS2017,ECE Flag Count,conn/flags,heuristic
+CICIDS2017,Down/Up Ratio,flow,heuristic
+CICIDS2017,Average Packet Size,flow,heuristic
+CICIDS2017,Avg Fwd Segment Size,statistical,heuristic
+CICIDS2017,Avg Bwd Segment Size,statistical,heuristic
+CICIDS2017,Fwd Header Length.1,flow,heuristic
+CICIDS2017,Fwd Avg Bytes/Bulk,statistical,heuristic
+CICIDS2017,Fwd Avg Packets/Bulk,statistical,heuristic
+CICIDS2017,Fwd Avg Bulk Rate,statistical,heuristic
+CICIDS2017,Bwd Avg Bytes/Bulk,statistical,heuristic
+CICIDS2017,Bwd Avg Packets/Bulk,statistical,heuristic
+CICIDS2017,Bwd Avg Bulk Rate,statistical,heuristic
+CICIDS2017,Subflow Fwd Packets,flow,heuristic
+CICIDS2017,Subflow Fwd Bytes,flow,heuristic
+CICIDS2017,Subflow Bwd Packets,flow,heuristic
+CICIDS2017,Subflow Bwd Bytes,flow,heuristic
+CICIDS2017,Init_Win_bytes_forward,flow,heuristic
+CICIDS2017,Init_Win_bytes_backward,flow,heuristic
+CICIDS2017,act_data_pkt_fwd,flow,heuristic
+CICIDS2017,min_seg_size_forward,statistical,heuristic
+CICIDS2017,Active Mean,time,heuristic
+CICIDS2017,Active Std,time,heuristic
+CICIDS2017,Active Max,time,heuristic
+CICIDS2017,Active Min,time,heuristic
+CICIDS2017,Idle Mean,time,heuristic
+CICIDS2017,Idle Std,time,heuristic
+CICIDS2017,Idle Max,time,heuristic
+CICIDS2017,Idle Min,time,heuristic
+CICIDS2017,Label,ignored,excluded

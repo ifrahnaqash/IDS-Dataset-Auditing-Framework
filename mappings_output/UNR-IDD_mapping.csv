@@ -1,0 +1,34 @@
+dataset,feature,category,reason
+UNR-IDD,Switch ID,telemetry,heuristic
+UNR-IDD,Port Number,telemetry,heuristic
+UNR-IDD,Received Packets,flow,heuristic
+UNR-IDD,Received Bytes,flow,heuristic
+UNR-IDD,Sent Bytes,flow,heuristic
+UNR-IDD,Sent Packets,flow,heuristic
+UNR-IDD,Port alive Duration (S),time,heuristic
+UNR-IDD,Packets Rx Dropped,flow,heuristic
+UNR-IDD,Packets Tx Dropped,flow,heuristic
+UNR-IDD,Packets Rx Errors,flow,heuristic
+UNR-IDD,Packets Tx Errors,flow,heuristic
+UNR-IDD,Delta Received Packets,flow,heuristic
+UNR-IDD,Delta Received Bytes,flow,heuristic
+UNR-IDD,Delta Sent Bytes,flow,heuristic
+UNR-IDD,Delta Sent Packets,flow,heuristic
+UNR-IDD,Delta Port alive Duration (S),time,heuristic
+UNR-IDD,Delta Packets Rx Dropped,flow,heuristic
+UNR-IDD,Delta Packets Tx Dropped,flow,heuristic
+UNR-IDD,Delta Packets Rx Errors,flow,heuristic
+UNR-IDD,Delta Packets Tx Errors,flow,heuristic
+UNR-IDD,Connection Point,telemetry,heuristic
+UNR-IDD,Total Load/Rate,statistical,heuristic
+UNR-IDD,Total Load/Latest,telemetry,override
+UNR-IDD,Unknown Load/Rate,statistical,heuristic
+UNR-IDD,Unknown Load/Latest,telemetry,override
+UNR-IDD,Latest bytes counter,flow,heuristic
+UNR-IDD,is_valid,telemetry,heuristic
+UNR-IDD,Table ID,ignored,excluded
+UNR-IDD,Active Flow Entries,time,heuristic
+UNR-IDD,Packets Matched,flow,heuristic
+UNR-IDD,Max Size,statistical,heuristic
+UNR-IDD,Label,ignored,excluded
+UNR-IDD,Binary Label,ignored,excluded
