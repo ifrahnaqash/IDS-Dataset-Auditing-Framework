@@ -1,0 +1,1307 @@
+{
+  "dataset": "UNR-IDD",
+  "ATC_score": 0.2301,
+  "breadth": 0.2254,
+  "technique_cov": 0.0185,
+  "evenness": 0.9464,
+  "num_in_scope_techniques": 108,
+  "num_evidenced_techniques": 4,
+  "tactic_summary": {
+    "collection": {
+      "covered": false,
+      "weight": 1.0,
+      "depth": 0.0
+    },
+    "command-and-control": {
+      "covered": false,
+      "weight": 1.5,
+      "depth": 0.0
+    },
+    "credential-access": {
+      "covered": false,
+      "weight": 1.0,
+      "depth": 0.0
+    },
+    "defense-evasion": {
+      "covered": false,
+      "weight": 1.0,
+      "depth": 0.0
+    },
+    "discovery": {
+      "covered": true,
+      "weight": 1.0,
+      "depth": 0.5
+    },
+    "execution": {
+      "covered": false,
+      "weight": 1.0,
+      "depth": 0.0
+    },
+    "impact": {
+      "covered": true,
+      "weight": 1.2,
+      "depth": 1.0
+    },
+    "initial-access": {
+      "covered": false,
+      "weight": 1.0,
+      "depth": 0.0
+    },
+    "lateral-movement": {
+      "covered": false,
+      "weight": 1.5,
+      "depth": 0.0
+    },
+    "persistence": {
+      "covered": false,
+      "weight": 1.0,
+      "depth": 0.0
+    },
+    "privilege-escalation": {
+      "covered": false,
+      "weight": 1.0,
+      "depth": 0.0
+    },
+    "reconnaissance": {
+      "covered": true,
+      "weight": 1.0,
+      "depth": 0.5
+    },
+    "resource-development": {
+      "covered": false,
+      "weight": 1.0,
+      "depth": 0.0
+    }
+  },
+  "technique_details": {
+    "T1557": {
+      "name": "Adversary-in-the-Middle",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access",
+        "collection"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1110.001": {
+      "name": "Password Guessing",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1003": {
+      "name": "OS Credential Dumping",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1498.001": {
+      "name": "Direct Network Flood",
+      "confidence": 1.0,
+      "q": 0.5,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 23116,
+      "evidence_types": [
+        "label_map"
+      ]
+    },
+    "T1564.008": {
+      "name": "Email Hiding Rules",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1171": {
+      "name": "LLMNR/NBT-NS Poisoning and Relay",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1499.001": {
+      "name": "OS Exhaustion Flood",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1546.013": {
+      "name": "PowerShell Profile",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "privilege-escalation",
+        "persistence"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1036.007": {
+      "name": "Double File Extension",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1574.011": {
+      "name": "Services Registry Permissions Weakness",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "persistence",
+        "privilege-escalation",
+        "defense-evasion"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1615": {
+      "name": "Group Policy Discovery",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "discovery"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1178": {
+      "name": "SID-History Injection",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "privilege-escalation"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1013": {
+      "name": "Port Monitors",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "persistence",
+        "privilege-escalation"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1192": {
+      "name": "Spearphishing Link",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "initial-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1087.002": {
+      "name": "Domain Account",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "discovery"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1204.002": {
+      "name": "Malicious File",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "execution"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1586.001": {
+      "name": "Social Media Accounts",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1566.002": {
+      "name": "Spearphishing Link",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "initial-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1598.003": {
+      "name": "Spearphishing Link",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1566.001": {
+      "name": "Spearphishing Attachment",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "initial-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1675": {
+      "name": "ESXi Administration Command",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "execution"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1040": {
+      "name": "Network Sniffing",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access",
+        "discovery"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1556.002": {
+      "name": "Password Filter DLL",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access",
+        "defense-evasion",
+        "persistence"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1558.004": {
+      "name": "AS-REP Roasting",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1058": {
+      "name": "Service Registry Permissions Weakness",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "persistence",
+        "privilege-escalation"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1547.010": {
+      "name": "Port Monitors",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "persistence",
+        "privilege-escalation"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1070.008": {
+      "name": "Clear Mailbox Data",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1547.009": {
+      "name": "Shortcut Modification",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "persistence",
+        "privilege-escalation"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1218.003": {
+      "name": "CMSTP",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1572": {
+      "name": "Protocol Tunneling",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1021": {
+      "name": "Remote Services",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "lateral-movement"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1207": {
+      "name": "Rogue Domain Controller",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1557.001": {
+      "name": "LLMNR/NBT-NS Poisoning and SMB Relay",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access",
+        "collection"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1595": {
+      "name": "Active Scanning",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1110.003": {
+      "name": "Password Spraying",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1598.004": {
+      "name": "Spearphishing Voice",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1193": {
+      "name": "Spearphishing Attachment",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "initial-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1003.005": {
+      "name": "Cached Domain Credentials",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1548.005": {
+      "name": "Temporary Elevated Cloud Access",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "privilege-escalation",
+        "defense-evasion"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1016": {
+      "name": "System Network Configuration Discovery",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "discovery"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1504": {
+      "name": "PowerShell Profile",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "persistence",
+        "privilege-escalation"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1136.002": {
+      "name": "Domain Account",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "persistence"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1558.001": {
+      "name": "Golden Ticket",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1562.007": {
+      "name": "Disable or Modify Cloud Firewall",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1036.002": {
+      "name": "Right-to-Left Override",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1550.003": {
+      "name": "Pass the Ticket",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion",
+        "lateral-movement"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1191": {
+      "name": "CMSTP",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion",
+        "execution"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1649": {
+      "name": "Steal or Forge Authentication Certificates",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1098.005": {
+      "name": "Device Registration",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "persistence",
+        "privilege-escalation"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1049": {
+      "name": "System Network Connections Discovery",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "discovery"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1064": {
+      "name": "Scripting",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion",
+        "execution"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1552.001": {
+      "name": "Credentials In Files",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1608": {
+      "name": "Stage Capabilities",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1608.005": {
+      "name": "Link Target",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1528": {
+      "name": "Steal Application Access Token",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1598.002": {
+      "name": "Spearphishing Attachment",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1204": {
+      "name": "User Execution",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "execution"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1552.006": {
+      "name": "Group Policy Preferences",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1196": {
+      "name": "Control Panel Items",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion",
+        "execution"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1556.008": {
+      "name": "Network Provider DLL",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access",
+        "defense-evasion",
+        "persistence"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1134.004": {
+      "name": "Parent PID Spoofing",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion",
+        "privilege-escalation"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1059.001": {
+      "name": "PowerShell",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "execution"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1502": {
+      "name": "Parent PID Spoofing",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion",
+        "privilege-escalation"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1534": {
+      "name": "Internal Spearphishing",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "lateral-movement"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1097": {
+      "name": "Pass the Ticket",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "lateral-movement"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1566": {
+      "name": "Phishing",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "initial-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1090.003": {
+      "name": "Multi-hop Proxy",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1585.001": {
+      "name": "Social Media Accounts",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1110.004": {
+      "name": "Credential Stuffing",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1208": {
+      "name": "Kerberoasting",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1187": {
+      "name": "Forced Authentication",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1134.005": {
+      "name": "SID-History Injection",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion",
+        "privilege-escalation"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1174": {
+      "name": "Password Filter DLL",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1081": {
+      "name": "Credentials in Files",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1566.004": {
+      "name": "Spearphishing Voice",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "initial-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1593.001": {
+      "name": "Social Media",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1203": {
+      "name": "Exploitation for Client Execution",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "execution"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1667": {
+      "name": "Email Bombing",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1095": {
+      "name": "Non-Application Layer Protocol",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1499": {
+      "name": "Endpoint Denial of Service",
+      "confidence": 1.0,
+      "q": 0.5,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 1022,
+      "evidence_types": [
+        "label_map"
+      ]
+    },
+    "T1656": {
+      "name": "Impersonation",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1557.002": {
+      "name": "ARP Cache Poisoning",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access",
+        "collection"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1598": {
+      "name": "Phishing for Information",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1500": {
+      "name": "Compile After Delivery",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1194": {
+      "name": "Spearphishing via Service",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "initial-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1556.001": {
+      "name": "Domain Controller Authentication",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access",
+        "defense-evasion",
+        "persistence"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1595.001": {
+      "name": "Scanning IP Blocks",
+      "confidence": 1.0,
+      "q": 0.5,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 9500,
+      "evidence_types": [
+        "label_map"
+      ]
+    },
+    "T1059.005": {
+      "name": "Visual Basic",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "execution"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1136": {
+      "name": "Create Account",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "persistence"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1018": {
+      "name": "Remote System Discovery",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "discovery"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1046": {
+      "name": "Network Service Discovery",
+      "confidence": 1.0,
+      "q": 0.5,
+      "weight": 1.0,
+      "tactics": [
+        "discovery"
+      ],
+      "evidence_count": 9500,
+      "evidence_types": [
+        "label_map"
+      ]
+    },
+    "T1550.002": {
+      "name": "Pass the Hash",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion",
+        "lateral-movement"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1105": {
+      "name": "Ingress Tool Transfer",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1098.002": {
+      "name": "Additional Email Delegate Permissions",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "persistence",
+        "privilege-escalation"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1055.015": {
+      "name": "ListPlanting",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion",
+        "privilege-escalation"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1484": {
+      "name": "Domain or Tenant Policy Modification",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion",
+        "privilege-escalation"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1220": {
+      "name": "XSL Script Processing",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1003.003": {
+      "name": "NTDS",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1204.001": {
+      "name": "Malicious Link",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "execution"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1558.003": {
+      "name": "Kerberoasting",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1003.006": {
+      "name": "DCSync",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1086": {
+      "name": "PowerShell",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "execution"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1556": {
+      "name": "Modify Authentication Process",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access",
+        "defense-evasion",
+        "persistence"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1566.003": {
+      "name": "Spearphishing via Service",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "initial-access"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1094": {
+      "name": "Custom Command and Control Protocol",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1598.001": {
+      "name": "Spearphishing Service",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1043": {
+      "name": "Commonly Used Port",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1027.015": {
+      "name": "Compression",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    }
+  }
+}

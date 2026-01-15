@@ -1,0 +1,2075 @@
+{
+  "dataset": "HIKARI-2021",
+  "ATC_score": 0.3102,
+  "breadth": 0.4421,
+  "technique_cov": 0.011,
+  "evenness": 1.0,
+  "num_in_scope_techniques": 182,
+  "num_evidenced_techniques": 4,
+  "tactic_summary": {
+    "command-and-control": {
+      "covered": false,
+      "weight": 1.3,
+      "depth": 0.0
+    },
+    "credential-access": {
+      "covered": true,
+      "weight": 1.0,
+      "depth": 0.5
+    },
+    "defense-evasion": {
+      "covered": false,
+      "weight": 1.0,
+      "depth": 0.0
+    },
+    "discovery": {
+      "covered": true,
+      "weight": 1.0,
+      "depth": 0.5
+    },
+    "impact": {
+      "covered": true,
+      "weight": 1.2,
+      "depth": 0.5
+    },
+    "initial-access": {
+      "covered": false,
+      "weight": 1.0,
+      "depth": 0.0
+    },
+    "persistence": {
+      "covered": false,
+      "weight": 1.0,
+      "depth": 0.0
+    },
+    "reconnaissance": {
+      "covered": true,
+      "weight": 1.0,
+      "depth": 0.5
+    },
+    "resource-development": {
+      "covered": false,
+      "weight": 1.0,
+      "depth": 0.0
+    }
+  },
+  "technique_details": {
+    "T1205.002": {
+      "name": "Socket Filters",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion",
+        "persistence",
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1583": {
+      "name": "Acquire Infrastructure",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1583.007": {
+      "name": "Serverless",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1132.001": {
+      "name": "Standard Encoding",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1592": {
+      "name": "Gather Victim Host Information",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1596.003": {
+      "name": "Digital Certificates",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1110.001": {
+      "name": "Password Guessing",
+      "confidence": 1.0,
+      "q": 0.5,
+      "weight": 1.0,
+      "tactics": [
+        "credential-access"
+      ],
+      "evidence_count": 11029,
+      "evidence_types": [
+        "label_map"
+      ]
+    },
+    "T1597.002": {
+      "name": "Purchase Technical Data",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1561.002": {
+      "name": "Disk Structure Wipe",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1498.001": {
+      "name": "Direct Network Flood",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1588.007": {
+      "name": "Artificial Intelligence",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1491.002": {
+      "name": "External Defacement",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1590.005": {
+      "name": "IP Addresses",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1499.001": {
+      "name": "OS Exhaustion Flood",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1590.002": {
+      "name": "DNS",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1485.001": {
+      "name": "Lifecycle-Triggered Deletion",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1568.002": {
+      "name": "Domain Generation Algorithms",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1496.003": {
+      "name": "SMS Pumping",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1584.008": {
+      "name": "Network Devices",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1583.008": {
+      "name": "Malvertising",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1596.002": {
+      "name": "WHOIS",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1594": {
+      "name": "Search Victim-Owned Websites",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1596.001": {
+      "name": "DNS/Passive DNS",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1499.003": {
+      "name": "Application Exhaustion Flood",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1588.004": {
+      "name": "Digital Certificates",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1583.002": {
+      "name": "DNS Server",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1561": {
+      "name": "Disk Wipe",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1071.004": {
+      "name": "DNS",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1172": {
+      "name": "Domain Fronting",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1587.003": {
+      "name": "Digital Certificates",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1489": {
+      "name": "Service Stop",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1587.001": {
+      "name": "Malware",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1591.003": {
+      "name": "Identify Business Tempo",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1071.005": {
+      "name": "Publish/Subscribe Protocols",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1592.001": {
+      "name": "Hardware",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1573.001": {
+      "name": "Symmetric Cryptography",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1586.001": {
+      "name": "Social Media Accounts",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1568.001": {
+      "name": "Fast Flux DNS",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1588.006": {
+      "name": "Vulnerabilities",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1499.004": {
+      "name": "Application or System Exploitation",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1598.003": {
+      "name": "Spearphishing Link",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1487": {
+      "name": "Disk Structure Wipe",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1583.005": {
+      "name": "Botnet",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1608.004": {
+      "name": "Drive-by Target",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1565.003": {
+      "name": "Runtime Data Manipulation",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1590.004": {
+      "name": "Network Topology",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1587.002": {
+      "name": "Code Signing Certificates",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1071": {
+      "name": "Application Layer Protocol",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1590.003": {
+      "name": "Network Trust Dependencies",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1498.002": {
+      "name": "Reflection Amplification",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1499.002": {
+      "name": "Service Exhaustion Flood",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1584.003": {
+      "name": "Virtual Private Server",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1024": {
+      "name": "Custom Cryptographic Protocol",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1586.003": {
+      "name": "Cloud Accounts",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1586.002": {
+      "name": "Email Accounts",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1608.001": {
+      "name": "Upload Malware",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1219": {
+      "name": "Remote Access Tools",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1583.001": {
+      "name": "Domains",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1079": {
+      "name": "Multilayer Encryption",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1659": {
+      "name": "Content Injection",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "initial-access",
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1205": {
+      "name": "Traffic Signaling",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion",
+        "persistence",
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1032": {
+      "name": "Standard Cryptographic Protocol",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1572": {
+      "name": "Protocol Tunneling",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1608.002": {
+      "name": "Upload Tool",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1597.001": {
+      "name": "Threat Intel Vendors",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1589": {
+      "name": "Gather Victim Identity Information",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1483": {
+      "name": "Domain Generation Algorithms",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1071.003": {
+      "name": "Mail Protocols",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1595.002": {
+      "name": "Vulnerability Scanning",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1596": {
+      "name": "Search Open Technical Databases",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1491": {
+      "name": "Defacement",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1583.004": {
+      "name": "Server",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1092": {
+      "name": "Communication Through Removable Media",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1585.002": {
+      "name": "Email Accounts",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1595": {
+      "name": "Active Scanning",
+      "confidence": 1.0,
+      "q": 0.5,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 23388,
+      "evidence_types": [
+        "label_map"
+      ]
+    },
+    "T1090.002": {
+      "name": "External Proxy",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1589.002": {
+      "name": "Email Addresses",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1598.004": {
+      "name": "Spearphishing Voice",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1590.006": {
+      "name": "Network Security Appliances",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1593.002": {
+      "name": "Search Engines",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1591.002": {
+      "name": "Business Relationships",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1593.003": {
+      "name": "Code Repositories",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1496.002": {
+      "name": "Bandwidth Hijacking",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1090": {
+      "name": "Proxy",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1589.003": {
+      "name": "Employee Names",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1592.004": {
+      "name": "Client Configurations",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1219.001": {
+      "name": "IDE Tunneling",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1588.001": {
+      "name": "Malware",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1583.003": {
+      "name": "Virtual Private Server",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1568": {
+      "name": "Dynamic Resolution",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1188": {
+      "name": "Multi-hop Proxy",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1584": {
+      "name": "Compromise Infrastructure",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1586": {
+      "name": "Compromise Accounts",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1584.005": {
+      "name": "Botnet",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1102": {
+      "name": "Web Service",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1568.003": {
+      "name": "DNS Calculation",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1608": {
+      "name": "Stage Capabilities",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1608.005": {
+      "name": "Link Target",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1104": {
+      "name": "Multi-Stage Channels",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1657": {
+      "name": "Financial Theft",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1205.001": {
+      "name": "Port Knocking",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "defense-evasion",
+        "persistence",
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1583.006": {
+      "name": "Web Services",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1598.002": {
+      "name": "Spearphishing Attachment",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1491.001": {
+      "name": "Internal Defacement",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1596.004": {
+      "name": "CDNs",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1496.004": {
+      "name": "Cloud Service Hijacking",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1585.003": {
+      "name": "Cloud Accounts",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1591": {
+      "name": "Gather Victim Org Information",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1026": {
+      "name": "Multiband Communication",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1071.002": {
+      "name": "File Transfer Protocols",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1102.003": {
+      "name": "One-Way Communication",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1590": {
+      "name": "Gather Victim Network Information",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1593": {
+      "name": "Search Open Websites/Domains",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1588.002": {
+      "name": "Tool",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1597": {
+      "name": "Search Closed Sources",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1496.001": {
+      "name": "Compute Hijacking",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1090.003": {
+      "name": "Multi-hop Proxy",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1565": {
+      "name": "Data Manipulation",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1001": {
+      "name": "Data Obfuscation",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1584.006": {
+      "name": "Web Services",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1571": {
+      "name": "Non-Standard Port",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1585.001": {
+      "name": "Social Media Accounts",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1531": {
+      "name": "Account Access Removal",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1486": {
+      "name": "Data Encrypted for Impact",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1488": {
+      "name": "Disk Content Wipe",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1592.003": {
+      "name": "Firmware",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1573": {
+      "name": "Encrypted Channel",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1592.002": {
+      "name": "Software",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1587.004": {
+      "name": "Exploits",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1593.001": {
+      "name": "Social Media",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1589.001": {
+      "name": "Credentials",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1102.002": {
+      "name": "Bidirectional Communication",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1595.003": {
+      "name": "Wordlist Scanning",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1667": {
+      "name": "Email Bombing",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1573.002": {
+      "name": "Asymmetric Cryptography",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1608.003": {
+      "name": "Install Digital Certificate",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1095": {
+      "name": "Non-Application Layer Protocol",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1584.002": {
+      "name": "DNS Server",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1001.003": {
+      "name": "Protocol or Service Impersonation",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1499": {
+      "name": "Endpoint Denial of Service",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1065": {
+      "name": "Uncommonly Used Port",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1494": {
+      "name": "Runtime Data Manipulation",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1090.004": {
+      "name": "Domain Fronting",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1591.004": {
+      "name": "Identify Roles",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1132": {
+      "name": "Data Encoding",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1598": {
+      "name": "Phishing for Information",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1496": {
+      "name": "Resource Hijacking",
+      "confidence": 1.0,
+      "q": 0.5,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 3279,
+      "evidence_types": [
+        "label_map"
+      ]
+    },
+    "T1585": {
+      "name": "Establish Accounts",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1588": {
+      "name": "Obtain Capabilities",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1565.002": {
+      "name": "Transmitted Data Manipulation",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1650": {
+      "name": "Acquire Access",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1219.002": {
+      "name": "Remote Desktop Software",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1485": {
+      "name": "Data Destruction",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1132.002": {
+      "name": "Non-Standard Encoding",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1498": {
+      "name": "Network Denial of Service",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1595.001": {
+      "name": "Scanning IP Blocks",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1584.007": {
+      "name": "Serverless",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1071.001": {
+      "name": "Web Protocols",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1584.004": {
+      "name": "Server",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1046": {
+      "name": "Network Service Discovery",
+      "confidence": 1.0,
+      "q": 0.5,
+      "weight": 1.0,
+      "tactics": [
+        "discovery"
+      ],
+      "evidence_count": 23388,
+      "evidence_types": [
+        "label_map"
+      ]
+    },
+    "T1590.001": {
+      "name": "Domain Properties",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1608.006": {
+      "name": "SEO Poisoning",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1105": {
+      "name": "Ingress Tool Transfer",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1588.003": {
+      "name": "Code Signing Certificates",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1665": {
+      "name": "Hide Infrastructure",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1596.005": {
+      "name": "Scan Databases",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1591.001": {
+      "name": "Determine Physical Locations",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1587": {
+      "name": "Develop Capabilities",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1001.002": {
+      "name": "Steganography",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1008": {
+      "name": "Fallback Channels",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1588.005": {
+      "name": "Exploits",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1495": {
+      "name": "Firmware Corruption",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1490": {
+      "name": "Inhibit System Recovery",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1090.001": {
+      "name": "Internal Proxy",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1094": {
+      "name": "Custom Command and Control Protocol",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1102.001": {
+      "name": "Dead Drop Resolver",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1001.001": {
+      "name": "Junk Data",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1598.001": {
+      "name": "Spearphishing Service",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "reconnaissance"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1043": {
+      "name": "Commonly Used Port",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "command-and-control"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1584.001": {
+      "name": "Domains",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "resource-development"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1561.001": {
+      "name": "Disk Content Wipe",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    },
+    "T1529": {
+      "name": "System Shutdown/Reboot",
+      "confidence": 0.0,
+      "q": 0.0,
+      "weight": 1.0,
+      "tactics": [
+        "impact"
+      ],
+      "evidence_count": 0,
+      "evidence_types": []
+    }
+  }
+}
