@@ -28,15 +28,10 @@ Each metric is implemented as a standalone component and adheres strictly to the
 
 IDS-Dataset-Auditing-Framework/
 ├── atc_exports/ # ATC metric outputs (JSON files)
-
 ├── atc_exports_all/ 
-
 ├── atc_figs_unit/ # ATC unit figures
-
 ├── AS_figures/ # Attack Sophistication figures
-
 ├── cis_results/ # Class Imbalance Severity outputs
-
 ├── fcpa_figures/ # FCPA metric visual outputs
 ├── mappings_output/ # Label-to-ATT&CK mapping artifacts
 ├── pdr_outputs/ # Protocol Diversity results
