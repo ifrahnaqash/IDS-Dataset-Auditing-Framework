@@ -111,7 +111,35 @@ TRI scores in tri_outputs/ with visuals in tri_visuals/
 
 These outputs are exactly the artifacts referenced in Supplementary Sections S2–S7 of the paper.
 
-📌 Code ↔ Supplementary Material Relationship
+## 📦 External Resources and Large Files
+
+### MITRE ATT&CK Knowledge Base (Required)
+
+The **MITRE ATT&CK Enterprise knowledge base** file  
+`enterprise-attack.json`  
+is required for computing **Attack Taxonomy Coverage (ATC)** and **Attack Sophistication (AS)**.
+
+Due to repository size constraints, this file is **not included** in this repository.
+
+Users must download it directly from the official MITRE ATT&CK website:
+
+👉 https://attack.mitre.org/resources/enterprise-attack/
+
+This implementation was developed and evaluated using:
+
+- **ATT&CK Domain:** Enterprise  
+- **ATT&CK Version:** 17.1  
+- **STIX Specification:** 2.1  
+- **ATT&CK Spec Version:** 3.2.0  
+
+Once downloaded, place the file at the expected location specified in the ATC and AS notebooks (see inline comments in `atc_metric.ipynb` and `as_metric.ipynb`).
+
+> **Note:**  
+> No modifications to the original `enterprise-attack.json` file are required.  
+> The framework uses the file strictly as a read-only knowledge base.
+
+
+### 📌 Code ↔ Supplementary Material Relationship
 
 🧠 This repository implements the exact algorithmic specification from:
 
