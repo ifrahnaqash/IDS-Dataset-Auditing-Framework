@@ -89,23 +89,20 @@ Example (ATC):
 
 ```bash
 jupyter notebook atc_metric.ipynb
+```
 
 ### For TRI baselines, run:
 
 ```bash
 jupyter notebook TRI_Baseline_Builder_*.ipynb
-
+```
 
 ### 📌 Expected Outputs
 
 ATC technique coverage reports (atc_report_*.json)
-
 FCPA coverage summary (fcpa_coverage_summary.csv)
-
 CIS imbalance results and plots in cis_results/
-
 PDR statistical outputs in pdr_outputs/
-
 TRI scores in tri_outputs/ with visuals in tri_visuals/
 
 These outputs are exactly the artifacts referenced in Supplementary Sections S2–S7 of the paper.
