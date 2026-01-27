@@ -99,15 +99,11 @@ jupyter notebook TRI_Baseline_Builder_*.ipynb
 
 ### 📌 Expected Outputs
 
-ATC technique coverage reports (atc_report_*.json)
-
-FCPA coverage summary (fcpa_coverage_summary.csv)
-
-CIS imbalance results and plots in cis_results/
-
-PDR statistical outputs in pdr_outputs/
-
-TRI scores in tri_outputs/ with visuals in tri_visuals/
+- **ATC technique coverage reports** (atc_report_*.json)
+- **FCPA coverage summary** (fcpa_coverage_summary.csv)
+- **CIS imbalance results and plots in cis_results/**
+- **PDR statistical outputs in pdr_outputs/**
+- **TRI scores in tri_outputs/ with visuals in tri_visuals/**
 
 These outputs are exactly the artifacts referenced in Supplementary Sections S2–S7 of the paper.
 
@@ -146,18 +142,12 @@ Once downloaded, place the file at the expected location specified in the ATC an
 Supplementary Material S1–S7
 
 Key relationships:
-
-ATC notebooks → S2
-
-AS figures & results → S3
-
-FCPA CSV outputs → S4
-
-PDR notebooks → S5
-
-CIS outputs → S6
-
-TRI baselines & visuals → S7
+- **ATC notebooks → S2**
+- **AS figures & results → S3**
+- **FCPA CSV outputs → S4**
+- **PDR notebooks → S5**
+- **CIS outputs → S6**
+- **TRI baselines & visuals → S7**
 
 This means that the repository can be used to replicate all results presented in the manuscript.
 
