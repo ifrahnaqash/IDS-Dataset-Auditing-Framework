@@ -27,22 +27,39 @@ Each metric is implemented as a standalone component and adheres strictly to the
 ## 📁 Repository Structure
 
 IDS-Dataset-Auditing-Framework/
+
 ├── atc_exports/ # ATC metric outputs (JSON files)
+
 ├── atc_exports_all/ 
+
 ├── atc_figs_unit/ # ATC unit figures
+
 ├── AS_figures/ # Attack Sophistication figures
+
 ├── cis_results/ # Class Imbalance Severity outputs
+
 ├── fcpa_figures/ # FCPA metric visual outputs
+
 ├── mappings_output/ # Label-to-ATT&CK mapping artifacts
+
 ├── pdr_outputs/ # Protocol Diversity results
+
 ├── tri_outputs/ # TRI score outputs
+
 ├── tri_visuals/ # TRI visualization artifacts
+
 ├── baselines/ # Traffic baselines used for TRI
+
 ├── Dataset Information.ipynb # Dataset-level exploratory & context analysis
+
 ├── Diagnostic_Analysis.ipynb # Diagnostic scripts to inspect metric behavior
+
 ├── *.ipynb # Metric implementation notebooks
+
 ├── *.json / *.csv # Exported audit artifacts
+
 ├── README.md # This file
+
 └── LICENSE # MIT License                                                                                                
     
  
