@@ -60,6 +60,35 @@ IDS-Dataset-Auditing-Framework/
 
 ├── README.md # This file
 
-└── LICENSE # MIT License                                                                                                
+└── LICENSE # MIT License           
+
+
+---
+
+## 🚀 Getting Started
+
+### 📌 Requirements
+
+Make sure you have:
+
+- Python 3.8+
+- Jupyter / JupyterLab
+- Standard data science stack (`numpy`, `pandas`, `matplotlib`, etc.)
+
+---
+
+### 📌 Running the Metrics
+
+Each auditing metric is implemented in a corresponding notebook. To execute:
+
+1. Open a metric notebook (e.g., 'atc_metric.ipynb')
+2. Follow the documented steps
+3. Export results using provided helper functions.
+
+Example (ATC):
+
+```bash
+jupyter notebook atc_metric.ipynb
+
     
  
