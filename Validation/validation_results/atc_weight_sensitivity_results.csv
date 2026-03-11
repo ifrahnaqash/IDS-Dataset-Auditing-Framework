@@ -1,0 +1,6 @@
+Configuration,alpha,beta,gamma,Rank_correlation_vs_original
+Original,0.35,0.5,0.15,1.0
+Alt1,0.25,0.6,0.15,1.0
+Alt2,0.45,0.4,0.15,1.0
+Alt3,0.35,0.4,0.25,1.0
+Alt4,0.4,0.45,0.15,1.0
