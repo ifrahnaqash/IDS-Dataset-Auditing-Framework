@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: IDS Dataset Auditing Framework
+message: >
+  If you use this software, please cite the associated research article.
+type: software
+authors:
+  - family-names: Sanober
+    given-names: Ifrah
+  - family-names: Mir
+    given-names: Roohie Naaz
+repository-code: https://github.com/ifrahnaqash/IDS-Dataset-Auditing-Framework
+license: MIT
+version: 1.0.0
+date-released: 2026-01-01
+keywords:
+  - intrusion detection
+  - cybersecurity datasets
+  - dataset auditing
+  - IDS benchmarking
+  - MITRE ATT&CK
