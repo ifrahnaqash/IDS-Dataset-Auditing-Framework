@@ -86,7 +86,7 @@ Per-technique rubric scores for all 31 evaluated techniques are reported in Supp
 ### FCPA — Feature Completeness and Purpose Alignment
 Measures how well the dataset's feature set covers the categories required by its intended deployment purpose profile, using reference sufficiency thresholds $N_c^{\text{ref}}$ per category.
 
-$$\text{FCPA} = \sum_c w_c \cdot \min\!\left(1,\, \frac{n_c}{N_c^{\text{ref}}}\right)$$
+$$\text{FCPA} = \sum_c w_c \cdot \min\\left(1,\, \frac{n_c}{N_c^{\text{ref}}}\right)$$
 
 Feature categorisation is performed deterministically using a rule-based mapper archived in `Framework/mapping_output/`.
 
