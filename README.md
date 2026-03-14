@@ -34,25 +34,53 @@ The auditing framework evaluates each dataset against a fixed six-metric diagnos
 Dataset D = (D, F, L, M, P)
           |
           v
-  Purpose Profile Filter (S1.2)
-  Defines: observable features F_P,
-           observable protocols Π_P,
-           in-scope ATT&CK techniques T_P
-          |
-          +-------+-------+-------+-------+-------+-------+
-          |       |       |       |       |       |       |
-         ATC      AS     FCPA    PDR     CIS     TRI
-          |       |       |       |       |       |
-     ATT&CK   Rubric  Feature  Protocol  Class  Traffic
-     coverage sophist. complete diversity imbal. realism
-     (S2)     (S3)    (S4)     (S5)     (S6)   (S7)
-          |       |       |       |       |       |
-          +-------+-------+-------+-------+-------+
-                          |
-                  Empirical Validation
-               Spearman ρ vs. classifier
-               Macro PR-AUC / Macro F1
-                         (S8)
+┌─────────────────────────────────────────┐
+│  Layer 1: Data Collection               │
+│  Packet captures, flow records,         │
+│  host logs → Dataset Acquisition &      │
+│  Standardization                        │
+└─────────────────┬───────────────────────┘
+                  │ Produces Standardized Datasets
+                  v
+┌─────────────────────────────────────────┐
+│  Layer 2: Pre-processing                │
+│  Harmonize to Uniform Schema            │
+│  ├── Taxonomy Mapping (MITRE ATT&CK)    │
+│  ├── Feature Extraction & Categorization│
+│  ├── Protocol Normalization             │
+│  └── Context Tagging (Purpose Profile P)│
+└─────────────────┬───────────────────────┘
+                  │ Results in Harmonized Data
+                  v
+┌─────────────────────────────────────────┐
+│  Layer 3: Metric Evaluation             │
+│  Analyze Dataset Completeness           │
+│  ├── ATC  Attack Taxonomy Coverage      │
+│  ├── AS   Attack Sophistication         │
+│  ├── FCPA Feature Completeness &        │
+│  │        Purpose Alignment             │
+│  ├── PDR  Protocol Diversity &          │
+│  │        Representativeness            │
+│  ├── CIS  Class Imbalance Severity      │
+│  └── TRI  Traffic Realism Index         │
+│                                         │
+│  Each metric → normalized score [0,1]  │
+└─────────────────┬───────────────────────┘
+                  │ Generates 6-Metric Vector
+                  v
+┌─────────────────────────────────────────┐
+│  Layer 4: Diagnostic Analysis           │
+│  Convert 6-Metric Vector to Evidence    │
+│  ├── Radar Charts                       │
+│  ├── Heatmaps                           │
+│  ├── Threshold Analysis                 │
+│  │   <0.4 Deficient | 0.4-0.7 Adequate │
+│  │   >0.7 Strong                        │
+│  └── Gap Summaries & Recommendations    │
+└─────────────────┬───────────────────────┘
+                  │
+                  v
+        Interpretable Diagnostic Insights
 ```
 
 **Key design constraints (S1):**
