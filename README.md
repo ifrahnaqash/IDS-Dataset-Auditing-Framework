@@ -125,8 +125,8 @@ Three purpose-profile-specific empirical baselines (enterprise, IoT, encrypted-f
 | UNSW-NB15 | Enterprise | General enterprise NIDS |
 | CIC-IDS2017 | Enterprise | General enterprise NIDS |
 | CSE-CIC-IDS2018 | Enterprise | General enterprise NIDS |
-| BoT-IoT | IoT | IoT gateway NIDS |
-| ToN-IoT | IoT | IoT gateway NIDS |
+| BoT-IoT | IoT | IoT edge |
+| ToN-IoT | IoT | IoT edge |
 | HIKARI-2021 | Encrypted-flow | Encrypted-flow-only IDS |
 | UNR-IDD | SDN telemetry | SDN switch telemetry |
 
